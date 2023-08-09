@@ -1,4 +1,4 @@
-package org.classeslist;
+package org.list.classes;
 
 /**
  * Example of the class to convert to JSON

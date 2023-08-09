@@ -1,11 +1,10 @@
-package org.example;
+package org.runner;
 
 import org.json.JSONObject;
 
 import java.lang.reflect.Field;
 import java.lang.reflect.InvocationTargetException;
 import java.util.Scanner;
-import java.util.Set;
 
 
 public class ClassToJsonConverter {
@@ -14,12 +13,12 @@ public class ClassToJsonConverter {
         String run;
         do {
             Scanner scanner = new Scanner(System.in);
-            System.out.println("Enter class name from [org.classeslist.*] package to convert: ");
+            System.out.println("Enter class name from [org.list.classes.*] package to convert: ");
             String className = scanner.next();
             System.out.println("=============================================");
 
             try {
-                Class clazz = Class.forName("org.classeslist." + className);
+                Class clazz = Class.forName("org.list.classes." + className);
                 Object instance = clazz.getDeclaredConstructor().newInstance();
                 System.out.println(convertObjectToJson(instance));
             } catch (ClassNotFoundException e) {

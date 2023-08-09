@@ -4,23 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="1b1a8f11-7d0a-4382-bbd9-d2c0e7335557" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/classeslist/ExClass.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/classeslist/Human.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/classeslist/RemoteFile.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/ClassToJsonConverter.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/reflections/Rabbit.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/reflections/RabbitAnnotation.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/reflections/ReflectionChecker.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/reflections/ReflectionExample.java" afterDir="false" />
+    <list default="true" id="1b1a8f11-7d0a-4382-bbd9-d2c0e7335557" name="Changes" comment="init commit">
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -66,7 +51,7 @@
   <component name="RunManager" selected="Application.Main">
     <configuration name="ClassToJsonConverter" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="org.example.ClassToJsonConverter" />
-      <module name="ClassDescriptionToJsonConverter" />
+      <module name="ClassMetaJSONifier" />
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="org.classeslist.*" />
@@ -79,7 +64,7 @@
     </configuration>
     <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="org.example.Main" />
-      <module name="ClassDescriptionToJsonConverter" />
+      <module name="ClassMetaJSONifier" />
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="org.classeslist.*" />
@@ -92,13 +77,26 @@
     </configuration>
     <configuration name="ReflectionExample" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="org.reflections.ReflectionExample" />
-      <module name="ClassDescriptionToJsonConverter" />
+      <module name="ClassMetaJSONifier" />
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="org.reflections.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration default="true" type="JetRunConfigurationType">
+      <module name="ClassMetaJSONifier" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration default="true" type="KotlinStandaloneScriptRunConfigurationType">
+      <module name="ClassMetaJSONifier" />
+      <option name="filePath" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -120,6 +118,18 @@
       <option name="presentableId" value="Default" />
       <updated>1691439992212</updated>
     </task>
+    <task id="LOCAL-00001" summary="init commit">
+      <created>1691555121011</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1691555121011</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="init commit" />
+    <option name="LAST_COMMIT_MESSAGE" value="init commit" />
   </component>
 </project>
